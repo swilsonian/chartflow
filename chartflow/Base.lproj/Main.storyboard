@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Line Chart View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LineChartViewController" customModule="chartflow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eK7-Iw-jDu" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="36" y="36" width="528" height="548"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eK7-Iw-jDu" secondAttribute="bottom" constant="16" id="EzQ-5G-df5"/>
+                            <constraint firstItem="eK7-Iw-jDu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="Jgu-qs-G6t"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eK7-Iw-jDu" secondAttribute="trailing" constant="16" id="azN-Vv-p88"/>
+                            <constraint firstItem="eK7-Iw-jDu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="nPI-eB-sqx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lineChartView" destination="eK7-Iw-jDu" id="3Io-ZN-Sfg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="290"/>
+        </scene>
+        <!--Chart View Controller-->
+        <scene sceneID="FP5-5O-zQs">
+            <objects>
+                <viewController id="QZA-SV-JQr" customClass="ChartViewController" customModule="chartflow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xcN-Ob-w6F"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wtp-Ma-ObD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ct1-Se-Khs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="trI-0U-yCL" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="36" y="36" width="528" height="548"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="trI-0U-yCL" firstAttribute="top" secondItem="xcN-Ob-w6F" secondAttribute="bottom" constant="16" id="0r7-Gh-CvF"/>
+                            <constraint firstItem="Wtp-Ma-ObD" firstAttribute="top" secondItem="trI-0U-yCL" secondAttribute="bottom" constant="16" id="58H-R2-vvq"/>
+                            <constraint firstItem="trI-0U-yCL" firstAttribute="leading" secondItem="ct1-Se-Khs" secondAttribute="leadingMargin" constant="16" id="EjE-eX-uoR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="trI-0U-yCL" secondAttribute="trailing" constant="16" id="UaN-MM-cju"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chartView" destination="trI-0U-yCL" id="i7M-tU-PWS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtA-yU-4DZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-529" y="310"/>
+        </scene>
+    </scenes>
+</document>

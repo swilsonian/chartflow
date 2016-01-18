@@ -1,0 +1,13 @@
+PODS:
+  - BAFluidView (0.1.6)
+  - Charts (2.1.4)
+
+DEPENDENCIES:
+  - BAFluidView
+  - Charts
+
+SPEC CHECKSUMS:
+  BAFluidView: d43890546d372d1f1b47cc12991ab5b257322f23
+  Charts: 870589b6b4bf8468baacea8869c28983d71f602c
+
+COCOAPODS: 0.39.0

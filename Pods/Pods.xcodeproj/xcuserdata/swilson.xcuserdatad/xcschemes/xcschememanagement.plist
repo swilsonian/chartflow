@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BAFluidView-BAFluidView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BAFluidView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1A415DB6FA656B7C9D9B61E2BE1F7613</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26CF5D844007F2F83341C41BBB0A4FEC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41CFA64B516ED9C08853FCDF6BC11F03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D69D9CDA8C2F6346A54BE66EEF4AFF0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
